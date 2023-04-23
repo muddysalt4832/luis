@@ -1,0 +1,27 @@
+local Library = loadstring(game: HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("created by luis Bello", "DarkTheme")
+
+
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("Back/Front Flip", "Makes you do Backflipes or Frontflipes", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/7wDcPtLk'))()
+end)
+
+MainSection:NewButton("FLY", "Makes you fly", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/W5aQUui6'))()
+end)
+
+MainSection:NewButton("Admin", "Gives you Admin menu", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/c9skYnFn'))()
+end)
+
+MainSection:NewButton("God Mode", "Gives you god mode", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/Wjby1EEv'))()
+end)
+
+MainSection:NewButton("Pet Sim X", "Pet Sim X Auto Hatch", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/epgnNu91'))()
+end)
