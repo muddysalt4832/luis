@@ -22,6 +22,32 @@ MainSection:NewButton("God Mode", "Gives you god mode", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/Wjby1EEv'))()
 end)
 
-MainSection:NewButton("Pet Sim X", "Pet Sim X Auto Hatch", function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/epgnNu91'))()
+
+local Main = Window:NewTab("Doors")
+local MainSection = Main:NewSection("Doors")
+
+MainSection: NewButton("Doors", "Doors hack", function()
+    loadstring(game: HttpGet('https://pastebin.com/raw/BiAeAnUj'))()
+end)
+
+MainSection: NewButton("Doors 2", "Doors hack 2", function()
+    loadstring(game: HttpGet('https://pastebin.com/raw/7YnhwgQn'))()
+end)
+
+MainSection: NewButton("Doors Hack 3", "Doors Hack 3", function()
+loadstring(game: HttpGet("https://pastebin.com/raw/6kfed0tP"))()
+end)
+
+local Main = Window:NewTab("Pet Sim X")
+local MainSection = Main:NewSection("Pet Sim X")
+
+MainSection: NewButton("Pet Sim X", "Pet Sim X Auto Hatch", function()
+    loadstring(game: HttpGet('https://pastebin.com/raw/epgnNu91'))()
+end)
+
+local Main = Window:NewTab("Build A Boat")
+local MainSection = Main:NewSection("Build A Boat")
+
+MainSection: NewButton("Build A Boat", "Build A Boat", function()
+    loadstring(game: HttpGet('https://pastebin.com/EQK1nC7L'))()
 end)
